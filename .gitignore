@@ -1,0 +1,36 @@
+.env
+.env.*
+!.env.example
+
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+.venv/
+venv/
+env/
+
+.DS_Store
+*.log
+
+# runtime outputs (keep empty dirs)
+output/**
+!output/.gitkeep
+!output/runs/
+output/runs/**
+!output/runs/.gitkeep
+
+node_modules/
+
+# local recording / preview artifacts
+video_demo/frame-*.webp
+video_demo/showcase-preview.*
+video_demo/*.webm
+video_demo/record_video.sh
+
+*.tar.gz
+*.zip
