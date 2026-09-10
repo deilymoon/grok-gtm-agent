@@ -1,0 +1,20 @@
+{
+  "industry": "B2B SaaS",
+  "company_size": "20–500",
+  "markets": ["US", "Europe"],
+  "target_team": "Customer Support",
+  "pain_points": [
+    "Support agents spend too long researching customer context across tools",
+    "Ticket volume growing faster than headcount",
+    "Inconsistent answers from fragmented knowledge bases",
+    "Slow time-to-first-response on complex B2B accounts"
+  ],
+  "buying_triggers": [
+    "Series A/B funding followed by support hiring",
+    "New VP/Head of Support or CX",
+    "Enterprise tier launch increasing ticket complexity",
+    "Public complaints about response times",
+    "Migration off legacy helpdesk or competitor CX stack"
+  ],
+  "summary": "Mid-market B2B SaaS companies (roughly 20–500 employees) in the US and Europe whose Customer Support / CX orgs are scaling after funding, leadership changes, or enterprise expansion — and who need AI to automate support research so agents resolve complex tickets faster."
+}

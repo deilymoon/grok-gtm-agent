@@ -1,0 +1,103 @@
+[
+  {
+    "name": "Intercom",
+    "website": "https://www.intercom.com",
+    "description": "Customer communications platform for sales, marketing, and support used by growing SaaS companies.",
+    "industry": "B2B SaaS / Customer Communications",
+    "size": "~1,000+ (relevant CX product org; mid-market customers 50–500)",
+    "location": "San Francisco, US / Dublin, Europe",
+    "raw_notes": "Strong CX ecosystem player; frequent product launches in AI inbox / Fin AI agent. Useful as competitor-adjacent signal and market proof, but also a buyer of research automation for internal support at scale.",
+    "signals": [
+      {"type":"product_launch","description":"Continued Fin AI agent expansion and AI inbox features increasing complexity of support workflows","freshness_days":25,"source_url":"https://www.intercom.com/blog","strength":0.75},
+      {"type":"hiring","description":"Ongoing hiring for AI and customer support / success roles across US and Europe","freshness_days":14,"source_url":"https://www.intercom.com/careers","strength":0.7},
+      {"type":"growth","description":"Public positioning around AI customer service at scale for B2B SaaS","freshness_days":40,"source_url":"https://www.intercom.com","strength":0.65}
+    ],
+    "sources":["https://www.intercom.com","https://www.intercom.com/careers","https://www.intercom.com/blog"]
+  },
+  {
+    "name":"Notion","website":"https://www.notion.so","description":"All-in-one workspace for notes, docs, and project management used heavily by B2B teams.","industry":"B2B SaaS / Productivity","size":"500–1000","location":"San Francisco, US","raw_notes":"Rapid user growth and enterprise push; support volume and knowledge fragmentation are classic pain points as product surface area expands.",
+    "signals":[
+      {"type":"enterprise_expansion","description":"Enterprise and AI features expanding seat count and support complexity","freshness_days":35,"source_url":"https://www.notion.so/enterprise","strength":0.8},
+      {"type":"hiring","description":"Customer experience and support-adjacent roles posted as product breadth grows","freshness_days":20,"source_url":"https://www.notion.so/careers","strength":0.72},
+      {"type":"product_launch","description":"Notion AI and new database/workflow features increase help-center research load","freshness_days":45,"source_url":"https://www.notion.so/product","strength":0.7}
+    ],"sources":["https://www.notion.so","https://www.notion.so/careers","https://www.notion.so/enterprise"]
+  },
+  {
+    "name":"Linear","website":"https://linear.app","description":"Issue tracking and project management software purpose-built for high-performance product teams.","industry":"B2B SaaS / Developer Tools","size":"100–200","location":"US / Europe","raw_notes":"Fast-growing product-led SaaS; support quality is brand-critical. Strong ICP fit for support research automation as customer base moves upmarket.",
+    "signals":[
+      {"type":"funding","description":"Well-capitalized growth stage with continued product investment (historical Series C and ongoing expansion)","freshness_days":90,"source_url":"https://linear.app/about","strength":0.7},
+      {"type":"hiring","description":"Hiring across product and customer-facing teams as customer count scales","freshness_days":18,"source_url":"https://linear.app/careers","strength":0.78},
+      {"type":"growth","description":"Rapid adoption among startups and scale-ups driving higher ticket complexity","freshness_days":30,"source_url":"https://linear.app","strength":0.75}
+    ],"sources":["https://linear.app","https://linear.app/careers","https://linear.app/about"]
+  },
+  {
+    "name":"Vercel","website":"https://vercel.com","description":"Frontend cloud platform for deploying and scaling modern web applications.","industry":"B2B SaaS / Developer Infrastructure","size":"400–600","location":"San Francisco, US","raw_notes":"Enterprise push + developer community scale = complex support research across docs, billing, and infra incidents.",
+    "signals":[
+      {"type":"enterprise_expansion","description":"Enterprise plans and compliance features expanding account complexity","freshness_days":28,"source_url":"https://vercel.com/enterprise","strength":0.82},
+      {"type":"leadership_hire","description":"Continued executive and go-to-market leadership buildup around enterprise motion","freshness_days":50,"source_url":"https://vercel.com/about","strength":0.68},
+      {"type":"hiring","description":"Support / success / solutions roles tied to enterprise onboarding","freshness_days":12,"source_url":"https://vercel.com/careers","strength":0.8}
+    ],"sources":["https://vercel.com","https://vercel.com/careers","https://vercel.com/enterprise"]
+  },
+  {
+    "name":"Loom","website":"https://www.loom.com","description":"Async video messaging platform widely used by SaaS GTM and support teams (Atlassian).","industry":"B2B SaaS / Collaboration","size":"200–400","location":"San Francisco, US","raw_notes":"Post-acquisition integration and enterprise distribution via Atlassian can create support research bottlenecks and tooling consolidation decisions.",
+    "signals":[
+      {"type":"migration","description":"Integration into Atlassian ecosystem prompting workflow and support-tool consolidation","freshness_days":60,"source_url":"https://www.loom.com/blog","strength":0.74},
+      {"type":"enterprise_expansion","description":"Enterprise packaging and admin controls expanding seat and ticket volume","freshness_days":40,"source_url":"https://www.loom.com","strength":0.7},
+      {"type":"hiring","description":"Customer-facing roles to support broader Atlassian-led distribution","freshness_days":22,"source_url":"https://www.atlassian.com/company/careers","strength":0.66}
+    ],"sources":["https://www.loom.com","https://www.loom.com/blog","https://www.atlassian.com/company/careers"]
+  },
+  {
+    "name":"Calendly","website":"https://calendly.com","description":"Scheduling automation platform for sales, success, and recruiting teams.","industry":"B2B SaaS / Productivity","size":"500–700","location":"Atlanta, US","raw_notes":"Mature PLG SaaS with enterprise motion; support research across integrations and billing is a recurring ops theme.",
+    "signals":[
+      {"type":"hiring","description":"Customer support and success hiring to sustain enterprise growth","freshness_days":16,"source_url":"https://calendly.com/careers","strength":0.73},
+      {"type":"product_launch","description":"Workflow and routing product updates increasing configuration-related tickets","freshness_days":35,"source_url":"https://calendly.com/blog","strength":0.68},
+      {"type":"growth","description":"Continued multi-product expansion across scheduling use cases","freshness_days":45,"source_url":"https://calendly.com","strength":0.62}
+    ],"sources":["https://calendly.com","https://calendly.com/careers","https://calendly.com/blog"]
+  },
+  {
+    "name":"Retool","website":"https://retool.com","description":"Platform to build internal tools quickly for operations and engineering teams.","industry":"B2B SaaS / Internal Tools","size":"200–400","location":"San Francisco, US","raw_notes":"Upselling into enterprise accounts; support agents need deep product + customer context research across complex deployments.",
+    "signals":[
+      {"type":"funding","description":"Significant late-stage funding history enabling GTM and support scale-up","freshness_days":120,"source_url":"https://retool.com/about","strength":0.6},
+      {"type":"department_hire","description":"Hiring for support, solutions, and customer engineers around enterprise deals","freshness_days":19,"source_url":"https://retool.com/careers","strength":0.84},
+      {"type":"enterprise_expansion","description":"Enterprise security/admin features and larger deployments","freshness_days":33,"source_url":"https://retool.com/enterprise","strength":0.8}
+    ],"sources":["https://retool.com","https://retool.com/careers","https://retool.com/enterprise"]
+  },
+  {
+    "name":"Airtable","website":"https://www.airtable.com","description":"Low-code platform to build apps and workflows on top of flexible data.","industry":"B2B SaaS / Low-code","size":"800+","location":"San Francisco, US","raw_notes":"Platform breadth creates high research load for support; enterprise customers expect faster, consistent answers.",
+    "signals":[
+      {"type":"leadership_hire","description":"Periodic GTM and product leadership changes as company focuses on AI and enterprise","freshness_days":55,"source_url":"https://www.airtable.com/company","strength":0.65},
+      {"type":"product_launch","description":"AI and interface features expanding support surface area","freshness_days":30,"source_url":"https://www.airtable.com/blog","strength":0.72},
+      {"type":"bottleneck","description":"Complex multi-base / interface setups increase agent research time per ticket","freshness_days":40,"source_url":"https://support.airtable.com","strength":0.7}
+    ],"sources":["https://www.airtable.com","https://www.airtable.com/blog","https://support.airtable.com"]
+  },
+  {
+    "name":"PostHog","website":"https://posthog.com","description":"Open-source product analytics and feature-flag platform for engineering-led teams.","industry":"B2B SaaS / Product Analytics","size":"50–150","location":"US / Europe (remote)","raw_notes":"Fast hiring, product velocity, and community-led growth — classic moment where support research automation pays off.",
+    "signals":[
+      {"type":"funding","description":"Growth funding enabling rapid hiring and product expansion","freshness_days":70,"source_url":"https://posthog.com/blog","strength":0.78},
+      {"type":"hiring","description":"Aggressive hiring including customer success / support-adjacent roles","freshness_days":10,"source_url":"https://posthog.com/careers","strength":0.88},
+      {"type":"problem_discussion","description":"Public engineering blog posts discussing scale, supportability, and product complexity","freshness_days":21,"source_url":"https://posthog.com/blog","strength":0.7}
+    ],"sources":["https://posthog.com","https://posthog.com/careers","https://posthog.com/blog"]
+  },
+  {
+    "name":"Amplitude","website":"https://amplitude.com","description":"Digital analytics platform helping product teams understand user behavior.","industry":"B2B SaaS / Product Analytics","size":"700+","location":"San Francisco, US","raw_notes":"Public company with enterprise customers; support research across complex instrumentation use cases is a fit, though buying motion may be slower.",
+    "signals":[
+      {"type":"competitor","description":"Competitive pressure in product analytics increasing need for efficient CX ops","freshness_days":45,"source_url":"https://amplitude.com","strength":0.55},
+      {"type":"hiring","description":"Selective hiring in customer-facing organizations","freshness_days":25,"source_url":"https://amplitude.com/careers","strength":0.58}
+    ],"sources":["https://amplitude.com","https://amplitude.com/careers"]
+  },
+  {
+    "name":"Plain.com","website":"https://www.plain.com","description":"Modern B2B customer support platform built for technical support teams.","industry":"B2B SaaS / Customer Support","size":"20–80","location":"Europe / US remote","raw_notes":"Support-native product company; strong ICP for research automation as they scale customers who themselves need better support tooling. Also competitor-adjacent.",
+    "signals":[
+      {"type":"funding","description":"Early growth capital and market attention in modern support tooling","freshness_days":80,"source_url":"https://www.plain.com/blog","strength":0.72},
+      {"type":"hiring","description":"Small-team hiring for GTM and support as customer base expands","freshness_days":15,"source_url":"https://www.plain.com","strength":0.7},
+      {"type":"problem_discussion","description":"Public content focused on B2B support quality and operational bottlenecks","freshness_days":20,"source_url":"https://www.plain.com/blog","strength":0.8}
+    ],"sources":["https://www.plain.com","https://www.plain.com/blog"]
+  },
+  {
+    "name":"Help Scout","website":"https://www.helpscout.com","description":"Customer support platform for growing businesses with shared inbox and knowledge base.","industry":"B2B SaaS / Customer Support","size":"100–200","location":"US / remote","raw_notes":"Support platform vendor — high problem relevance; may buy research automation for their own CX or partner around it. Moderate timing vs faster-scaling product-led peers.",
+    "signals":[
+      {"type":"product_launch","description":"AI and workflow features in helpdesk product line","freshness_days":38,"source_url":"https://www.helpscout.com/blog/","strength":0.64},
+      {"type":"growth","description":"Steady SMB/mid-market customer growth","freshness_days":60,"source_url":"https://www.helpscout.com","strength":0.55}
+    ],"sources":["https://www.helpscout.com","https://www.helpscout.com/blog/"]
+  }
+]

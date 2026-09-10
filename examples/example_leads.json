@@ -1,0 +1,22 @@
+[
+  {
+    "company": "Example Analytics Co",
+    "website": "https://example.com",
+    "description": "B2B SaaS analytics platform for product and support teams.",
+    "signals": [
+      "hiring: Expanding customer support / success roles",
+      "product_launch: New AI-assisted workflows increasing ticket complexity",
+      "growth: Rapid customer growth driving higher support volume"
+    ],
+    "sources": ["https://example.com/careers", "https://example.com/blog"],
+    "icp_fit": 90,
+    "signal_score": 88,
+    "timing_score": 85,
+    "gtm_score": 87,
+    "why_now": "Recent support hiring and product expansion suggest rising research load on CX teams right now.",
+    "best_contact_role": "Head of Customer Support",
+    "outreach_angle": "Lead with hiring + product complexity creating urgency for support research automation.",
+    "outreach_message": "Hi — noticed your team is scaling support while shipping new product surface area. We built an AI platform that helps B2B SaaS support teams automate customer research and surface recurring issues. Open to a short walkthrough with your Head of Customer Support?",
+    "score_breakdown": {"components":{"icp_fit":90,"signal_strength":88,"signal_freshness":80,"problem_relevance":92,"timing":85,"confidence":78}}
+  }
+]
