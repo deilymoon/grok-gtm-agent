@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Grok GTM Agent — Product Showcase</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="app">
+    <div id="frame">
+      <div class="bg-wash"></div>
+      <section class="scene" id="scene-intro"><div class="intro-stack"><p class="eyebrow">AI GTM Agent</p><h1>Grok GTM Agent</h1><p class="subtitle">Find companies ready to buy your product</p><div class="prompt-card"><span>PRODUCT</span><p id="intro-product"></p></div></div></section>
+      <section class="scene" id="scene-icp"><div class="stage"><p class="kicker">Building ICP</p><div class="center-product" id="icp-product"></div><div class="chips" id="icp-chips"></div></div></section>
+      <section class="scene" id="scene-discovery"><div class="stage"><div class="counter"><strong id="discovery-count">0</strong><span>COMPANIES DISCOVERED</span></div><div class="company-field" id="company-field"></div></div></section>
+      <section class="scene" id="scene-signals"><div class="stage"><div class="counter signal-counter"><strong id="signals-count">0</strong><span>VERIFIED SIGNALS</span></div><div class="signal-grid" id="signal-grid"></div></div></section>
+      <section class="scene" id="scene-scoring"><div class="stage"><p class="kicker">Scoring opportunities</p><div class="score-board" id="score-board"></div></div></section>
+      <section class="scene" id="scene-top5"><div class="stage"><p class="kicker">Top Opportunities</p><div class="top5" id="top5"></div></div></section>
+      <section class="scene" id="scene-deepdive"><div class="deepdive" id="deepdive"></div></section>
+      <section class="scene" id="scene-end"><div class="end"><h2>Grok GTM Agent</h2><p>Product → Signals → Opportunities</p><div class="end-stats" id="end-stats"></div></div></section>
+      <div class="progress"><div id="progress-fill"></div></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

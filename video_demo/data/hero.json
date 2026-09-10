@@ -1,0 +1,16 @@
+{
+  "product_title": "Grok GTM Agent",
+  "subtitle": "Find companies ready to buy your product",
+  "product": "AI platform that helps B2B SaaS companies automate customer support research, identify recurring customer problems, and reduce manual work for support teams.",
+  "counts": {"companies_discovered": 15, "companies_researched": 15, "signals_verified": 55, "companies_rejected": 0, "final_opportunities": 5},
+  "icp_cards": ["B2B SaaS", "20–500 employees", "US + Europe", "Support / CX teams", "Scaling support operations"],
+  "companies": ["Personio", "Contentful", "Aircall", "Pipedrive", "Typeform", "ChartMogul", "Paddle", "Chargebee", "Lattice", "15Five", "Toggl", "Factorial", "Oyster", "Metabase", "Retool"],
+  "top5": [
+    {"company":"Metabase","gtm_score":92,"why_now":"Customer support demand intensified after a recent security incident while the Success Engineering team is hiring.","best_contact":"Head of Customer Support","outreach":"Saw the recent support load and Success Engineering hiring. We built a system that automates recurring-issue research so support teams can resolve complex cases faster.","signals":["Hiring","Operational Bottlenecks","Success Engineering"]},
+    {"company":"Paddle","gtm_score":91,"why_now":"Paddle is actively scaling customer support roles across regions while public support friction remains visible.","best_contact":"Customer Support Team Lead","outreach":"Your support hiring and global expansion create a strong moment to automate account research and recurring issue detection.","signals":["Hiring","Global Support","Customer Complaints"]},
+    {"company":"Factorial","gtm_score":89,"why_now":"Fresh funding, rapid hiring, and an AI-native product push are increasing customer and support complexity.","best_contact":"VP Support / Head of Customer Success","outreach":"Your growth and AI product expansion are increasing the amount of context support teams need to research manually.","signals":["Recent Funding","Rapid Hiring","New Product Launch"]},
+    {"company":"Typeform","gtm_score":88,"why_now":"Typeform is hiring customer success and onboarding roles while launching new research workflows.","best_contact":"Head of Customer Support","outreach":"The combination of CX hiring and new product workflows is a good trigger for automating support research.","signals":["Hiring","New Leadership","Product Launch"]},
+    {"company":"Oyster","gtm_score":88,"why_now":"Oyster is scaling support and customer success after new funding while global operations increase case complexity.","best_contact":"VP Support / Head of CX","outreach":"Your support hiring and global workforce complexity create a clear opportunity to reduce manual research per case.","signals":["Recent Funding","Rapid Hiring","Customer Complaints"]}
+  ],
+  "featured": {"company":"Metabase","gtm_score":92,"why_now":"Customer support demand intensified after a recent security incident while the Success Engineering team is hiring.","best_contact":"Head of Customer Support","outreach":"Saw the recent support load and Success Engineering hiring. We built a system that automates recurring-issue research so support teams can resolve complex cases faster.","signals":["Hiring","Operational Bottlenecks","Success Engineering"]}
+}
